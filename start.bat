@@ -1,2 +1,2 @@
-node bot.js
+node ./src/index.js
 pause
