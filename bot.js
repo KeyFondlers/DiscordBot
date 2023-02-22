@@ -40,11 +40,7 @@ client.on('ready', () => {
 	});
 
 	cron.schedule('0 12 * * 0', () => {
-		physicschannel.send(':alarm_clock:  PRELECTURE READING WARNING :alarm_clock: \n @everyone');
-	});
-
-	cron.schedule('10 20 * * 0', () => {
-		physicschannel.send(':alarm_clock:  TEST PRELECTURE READING WARNING :alarm_clock: \n @everyone');
+		physicschannel.send(':alarm_clock:  PRELECTURE READING WARNING :alarm_clock: \n @everyone https://tenor.com/view/dont-you-need-to-be-getting-to-work-sharon-marsh-stan-marsh-south-park-s16e10-gif-23122684');
 	});
 
 });
